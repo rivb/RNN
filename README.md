@@ -1,6 +1,6 @@
 # RNN
 
-Recurrent Neural Networks are a type of arquitecture in which neurons have a short term memory with respect of what it have happen before, so it save the result of the first neurons by using its output as input for the next neurons, so in this way it can analyse it with respect what have happen in the past.
+Recurrent Neural Networks are a type of arquitecture in which neurons have a short term memory with respect of what it have happen before, so it save the result of the neurons before by using its output as input for the next neurons, so in this way it can analyse the output with respect what have happen in the past.
 
 One of the problem of RNN is that it's memory is too short, this is because the short memory only consider what have happen before but not what happen before that. Also, other problem that occure is that training the network all the way back to the first neurons will lead to vanishing gradient descent issue.
 
