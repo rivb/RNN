@@ -6,6 +6,8 @@ One of the problem of RNN is that it's memory is too short, this is because the 
 
 For that reason, Long Short Term Memory (LSTM) came to the rescue.
 
+![alt text](https://raw.githubusercontent.com/rvaldivia95/RNN/branch/path/to/rnn.png)
+
 # LSTM
 
 Long Short Term Memory architecture have two type of memory, one that consider Long Term Memory (LTM) and Short Term Memory( STM). It recieve this both type of memory including the New Input that must to classified and they are process by 4 different gates, forget gates, learn gate, remember gate and use gate. Forget gate recieve the information of LSTM AND Learn gate recieve the information of the New Input and the STM. Then the remmember gate decide what would be the next LSTM, that is the combination of the forget gates and learn gate. Next the use gate combine forget gates and learn gate to decide what would be the output, that in this case would be the STM.
