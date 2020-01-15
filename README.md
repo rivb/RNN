@@ -6,7 +6,7 @@ One of the problem of RNN is that it's memory is too short, this is because the 
 
 For that reason, Long Short Term Memory (LSTM) came to the rescue.
 
-![alt text](https://raw.githubusercontent.com/rvaldivia95/RNN/branch/path/to/rnn.png)
+![alt text](https://github.com/rvaldivia95/RNN/blob/master/rnn.png)
 
 # LSTM
 
